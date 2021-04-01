@@ -1,0 +1,8 @@
+pipeline{
+    agent any
+    stages{
+            stage("SCM checkout"){
+                   git url "http://https://github.com/hemasathya-sunkara/multipipeline/new/main"
+                 }
+         }
+}
